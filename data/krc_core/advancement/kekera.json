@@ -1,0 +1,25 @@
+{
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "nbt": "{attributes:[{base:30.0d,id:\"kamenridercraft:is_transforming\"}]}",
+		  "equipment": {
+			"feet": {
+			  "items": "kamenridercraft:raise_riser_belt_kekera"
+			}
+		  }
+		},
+		"items": [
+		  {
+			"items": "kamenridercraft:raise_riser_belt_kekera"
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_core:check_form/kekera"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": [
+		  "kamenridercraft:shin_ichigohead"
+		]
+	  },
+	  "chest": {
+		"items": [
+		  "kamenridercraft:shin_ichigotroso"
+		]
+	  },
+	  "legs": {
+		"items": [
+		  "kamenridercraft:shin_ichigolegs"
+		]
+	  }
+	}
+  }
+}

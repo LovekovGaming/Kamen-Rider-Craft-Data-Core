@@ -1,0 +1,26 @@
+{
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "nbt": "{attributes:[{base:30.0d,id:\"kamenridercraft:is_transforming\"}]}",
+		  "equipment": {
+			"feet": {
+			  "items": "kamenridercraft:ziku_driver_zi_o"
+			}
+		  }
+		},
+		"items": [
+		  {
+			"items": "kamenridercraft:ziku_driver_zi_o"
+		  }
+		]
+	  }
+	}
+  },
+	"rewards": {
+	  "function": "krc_core:check_form/zi-o"
+	}
+  }
+  

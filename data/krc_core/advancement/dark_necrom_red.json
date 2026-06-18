@@ -1,0 +1,25 @@
+{
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "nbt": "{attributes:[{base:30.0d,id:\"kamenridercraft:is_transforming\"}]}",
+		  "equipment": {
+			"feet": {
+			  "items": "kamenridercraft:proto_mega_ulorder_red"
+			}
+		  }
+		},
+		"items": [
+		  {
+			"items": "kamenridercraft:proto_mega_ulorder_red"
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_core:check_form/dark_necrom_red"
+  }
+}

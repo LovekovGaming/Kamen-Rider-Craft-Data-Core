@@ -1,0 +1,23 @@
+[
+  {
+	"condition": "minecraft:inverted",
+	"term": {
+	  "condition": "minecraft:entity_properties",
+	  "entity": "this",
+	  "predicate": {
+		"effects": {
+		  "kamenridercraft:muteki": {}
+		}
+	  }
+	}
+  },
+  {
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+	  "effects": {
+		"kamenridercraft:reset": {}
+	  }
+	}
+  }
+]

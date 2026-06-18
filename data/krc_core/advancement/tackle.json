@@ -1,0 +1,25 @@
+{
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "nbt": "{attributes:[{base:30.0d,id:\"kamenridercraft:is_transforming\"}]}",
+		  "equipment": {
+			"feet": {
+			  "items": "kamenridercraft:tackle_belt"
+			}
+		  }
+		},
+		"items": [
+		  {
+			"items": "kamenridercraft:tackle_belt"
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "krc_core:check_form/tackle"
+  }
+}

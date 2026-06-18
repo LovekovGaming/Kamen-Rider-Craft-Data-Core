@@ -1,0 +1,141 @@
+advancement revoke @s only krc_core:gm_jyamato_rider
+function #krc_core:pre_check/gm_jyamato_rider
+execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex2 unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex3 run function #krc_core:first_henshin/gm_jyamato_rider
+
+scoreboard players operation Form_Difference krc.form1n = @s krc.form1n
+scoreboard players operation Form_Difference krc.form2n = @s krc.form2n
+scoreboard players operation Form_Difference krc.form3n = @s krc.form3n
+scoreboard players set @s krc.form1n 1
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:blank_form"}] run scoreboard players set @s krc.form2n 0
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:gigant_container_buckle"}] run scoreboard players set @s krc.form2n -1
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:beat_raise_buckle"}] run scoreboard players set @s krc.form2n 1
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:fantasy_raise_buckle_gya_go"}] run scoreboard players set @s krc.form2n 2
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:monster_raise_buckle"}] run scoreboard players set @s krc.form2n 3
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:ninja_raise_buckle"}] run scoreboard players set @s krc.form2n 4
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:zombie_raise_buckle"}] run scoreboard players set @s krc.form2n 5
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:magnum_raise_buckle"}] run scoreboard players set @s krc.form2n 6
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:boost_raise_buckle"}] run scoreboard players set @s krc.form2n 7
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:propeller_raise_buckle"}] run scoreboard players set @s krc.form2n 8
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:drill_raise_buckle"}] run scoreboard players set @s krc.form2n 9
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:chain_array_raise_buckle"}] run scoreboard players set @s krc.form2n 10
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:claw_raise_buckle"}] run scoreboard players set @s krc.form2n 11
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:water_raise_buckle"}] run scoreboard players set @s krc.form2n 12
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:arrow_raise_buckle"}] run scoreboard players set @s krc.form2n 13
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:shield_raise_buckle"}] run scoreboard players set @s krc.form2n 14
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:hammer_raise_buckle"}] run scoreboard players set @s krc.form2n 15
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:beat_raise_buckle_fever"}] run scoreboard players set @s krc.form2n 16
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:monster_raise_buckle_fever"}] run scoreboard players set @s krc.form2n 17
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:ninja_raise_buckle_fever"}] run scoreboard players set @s krc.form2n 18
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:zombie_raise_buckle_fever"}] run scoreboard players set @s krc.form2n 19
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:magnum_raise_buckle_fever"}] run scoreboard players set @s krc.form2n 20
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:boost_raise_buckle_fever"}] run scoreboard players set @s krc.form2n 21
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:propeller_raise_buckle_fever"}] run scoreboard players set @s krc.form2n 22
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:drill_raise_buckle_fever"}] run scoreboard players set @s krc.form2n 23
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:chain_array_raise_buckle_fever"}] run scoreboard players set @s krc.form2n 24
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:claw_raise_buckle_fever"}] run scoreboard players set @s krc.form2n 25
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:water_raise_buckle_fever"}] run scoreboard players set @s krc.form2n 26
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:arrow_raise_buckle_fever"}] run scoreboard players set @s krc.form2n 27
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:shield_raise_buckle_fever"}] run scoreboard players set @s krc.form2n 28
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:hammer_raise_buckle_fever"}] run scoreboard players set @s krc.form2n 29
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:powered_builder_raise_buckle_geats"}] run scoreboard players set @s krc.form2n 30
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:jyamato_buckle"}] run scoreboard players set @s krc.form2n 31
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:shinobi_raise_buckle"}] run scoreboard players set @s krc.form2n 38
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:shark_raise_buckle"}] run scoreboard players set @s krc.form2n 39
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:revice_driver_raise_buckle_geats"}] run scoreboard players set @s krc.form2n 40
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:two_si_driver_raise_buckle"}] run scoreboard players set @s krc.form2n 41
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:libera_driver_raise_buckle"}] run scoreboard players set @s krc.form2n 42
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:demons_driver_raise_buckle"}] run scoreboard players set @s krc.form2n 43
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:seiken_swordriver_raise_buckle"}] run scoreboard players set @s krc.form2n 44
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:zero_one_driver_raise_buckle"}] run scoreboard players set @s krc.form2n 45
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:zikuu_driver_raise_buckle"}] run scoreboard players set @s krc.form2n 46
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:build_driver_raise_buckle"}] run scoreboard players set @s krc.form2n 47
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:gamer_driver_raise_buckle"}] run scoreboard players set @s krc.form2n 48
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:ghost_driver_raise_buckle"}] run scoreboard players set @s krc.form2n 49
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:drive_driver_raise_buckle"}] run scoreboard players set @s krc.form2n 50
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:sengoku_driver_raise_buckle"}] run scoreboard players set @s krc.form2n 51
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:wizardriver_raise_buckle"}] run scoreboard players set @s krc.form2n 52
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:fourze_driver_raise_buckle"}] run scoreboard players set @s krc.form2n 53
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:ooo_driver_raise_buckle"}] run scoreboard players set @s krc.form2n 54
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:double_driver_raise_buckle"}] run scoreboard players set @s krc.form2n 55
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:deca_driver_raise_buckle"}] run scoreboard players set @s krc.form2n 56
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:kivat_belt_raise_buckle"}] run scoreboard players set @s krc.form2n 57
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:den_o_belt_raise_buckle"}] run scoreboard players set @s krc.form2n 58
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:kabuto_zector_raise_buckle"}] run scoreboard players set @s krc.form2n 59
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:ongekiko_kaentsuzumi_raise_buckle"}] run scoreboard players set @s krc.form2n 60
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:blay_buckle_raise_buckle"}] run scoreboard players set @s krc.form2n 61
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:faiz_driver_raise_buckle"}] run scoreboard players set @s krc.form2n 62
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:v_buckle_raise_buckle"}] run scoreboard players set @s krc.form2n 63
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:ouja_v_buckle_raise_buckle"}] run scoreboard players set @s krc.form2n 64
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:alter_ring_raise_buckle"}] run scoreboard players set @s krc.form2n 65
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:arcle_raise_buckle"}] run scoreboard players set @s krc.form2n 66
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:king_stone_raise_buckle"}] run scoreboard players set @s krc.form2n 67
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:double_typhoon_raise_buckle"}] run scoreboard players set @s krc.form2n 68
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:typhoon_raise_buckle"}] run scoreboard players set @s krc.form2n 69
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:blank_form"}] run scoreboard players set @s krc.form3n 0
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:gigant_container_buckle"}] run scoreboard players set @s krc.form3n -1
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:beat_raise_buckle"}] run scoreboard players set @s krc.form3n 1
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:fantasy_raise_buckle_gya_go"}] run scoreboard players set @s krc.form3n 2
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:monster_raise_buckle"}] run scoreboard players set @s krc.form3n 3
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:ninja_raise_buckle"}] run scoreboard players set @s krc.form3n 4
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:zombie_raise_buckle"}] run scoreboard players set @s krc.form3n 5
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:magnum_raise_buckle"}] run scoreboard players set @s krc.form3n 6
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:boost_raise_buckle"}] run scoreboard players set @s krc.form3n 7
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:propeller_raise_buckle"}] run scoreboard players set @s krc.form3n 8
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:drill_raise_buckle"}] run scoreboard players set @s krc.form3n 9
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:chain_array_raise_buckle"}] run scoreboard players set @s krc.form3n 10
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:claw_raise_buckle"}] run scoreboard players set @s krc.form3n 11
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:water_raise_buckle"}] run scoreboard players set @s krc.form3n 12
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:arrow_raise_buckle"}] run scoreboard players set @s krc.form3n 13
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:shield_raise_buckle"}] run scoreboard players set @s krc.form3n 14
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:hammer_raise_buckle"}] run scoreboard players set @s krc.form3n 15
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:beat_raise_buckle_fever"}] run scoreboard players set @s krc.form3n 16
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:monster_raise_buckle_fever"}] run scoreboard players set @s krc.form3n 17
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:ninja_raise_buckle_fever"}] run scoreboard players set @s krc.form3n 18
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:zombie_raise_buckle_fever"}] run scoreboard players set @s krc.form3n 19
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:magnum_raise_buckle_fever"}] run scoreboard players set @s krc.form3n 20
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:boost_raise_buckle_fever"}] run scoreboard players set @s krc.form3n 21
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:propeller_raise_buckle_fever"}] run scoreboard players set @s krc.form3n 22
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:drill_raise_buckle_fever"}] run scoreboard players set @s krc.form3n 23
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:chain_array_raise_buckle_fever"}] run scoreboard players set @s krc.form3n 24
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:claw_raise_buckle_fever"}] run scoreboard players set @s krc.form3n 25
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:water_raise_buckle_fever"}] run scoreboard players set @s krc.form3n 26
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:arrow_raise_buckle_fever"}] run scoreboard players set @s krc.form3n 27
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:shield_raise_buckle_fever"}] run scoreboard players set @s krc.form3n 28
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:hammer_raise_buckle_fever"}] run scoreboard players set @s krc.form3n 29
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:powered_builder_raise_buckle_geats"}] run scoreboard players set @s krc.form3n 30
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:jyamato_buckle"}] run scoreboard players set @s krc.form3n 31
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:revice_driver_raise_buckle_geats"}] run scoreboard players set @s krc.form3n 39
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:two_si_driver_raise_buckle"}] run scoreboard players set @s krc.form3n 40
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:libera_driver_raise_buckle"}] run scoreboard players set @s krc.form3n 41
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:demons_driver_raise_buckle"}] run scoreboard players set @s krc.form3n 42
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:seiken_swordriver_raise_buckle"}] run scoreboard players set @s krc.form3n 43
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:zero_one_driver_raise_buckle"}] run scoreboard players set @s krc.form3n 44
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:zikuu_driver_raise_buckle"}] run scoreboard players set @s krc.form3n 45
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:build_driver_raise_buckle"}] run scoreboard players set @s krc.form3n 46
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:gamer_driver_raise_buckle"}] run scoreboard players set @s krc.form3n 47
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:ghost_driver_raise_buckle"}] run scoreboard players set @s krc.form3n 48
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:drive_driver_raise_buckle"}] run scoreboard players set @s krc.form3n 49
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:sengoku_driver_raise_buckle"}] run scoreboard players set @s krc.form3n 50
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:wizardriver_raise_buckle"}] run scoreboard players set @s krc.form3n 51
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:fourze_driver_raise_buckle"}] run scoreboard players set @s krc.form3n 52
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:ooo_driver_raise_buckle"}] run scoreboard players set @s krc.form3n 53
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:double_driver_raise_buckle"}] run scoreboard players set @s krc.form3n 54
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:deca_driver_raise_buckle"}] run scoreboard players set @s krc.form3n 55
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:kivat_belt_raise_buckle"}] run scoreboard players set @s krc.form3n 56
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:den_o_belt_raise_buckle"}] run scoreboard players set @s krc.form3n 57
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:kabuto_zector_raise_buckle"}] run scoreboard players set @s krc.form3n 58
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:ongekiko_kaentsuzumi_raise_buckle"}] run scoreboard players set @s krc.form3n 59
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:blay_buckle_raise_buckle"}] run scoreboard players set @s krc.form3n 60
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:faiz_driver_raise_buckle"}] run scoreboard players set @s krc.form3n 61
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:v_buckle_raise_buckle"}] run scoreboard players set @s krc.form3n 62
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:ouja_v_buckle_raise_buckle"}] run scoreboard players set @s krc.form3n 63
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:alter_ring_raise_buckle"}] run scoreboard players set @s krc.form3n 64
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:arcle_raise_buckle"}] run scoreboard players set @s krc.form3n 65
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:king_stone_raise_buckle"}] run scoreboard players set @s krc.form3n 66
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:double_typhoon_raise_buckle"}] run scoreboard players set @s krc.form3n 67
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:typhoon_raise_buckle"}] run scoreboard players set @s krc.form3n 68
+scoreboard players operation Form_Difference krc.form1n -= @s krc.form1n
+scoreboard players operation Form_Difference krc.form2n -= @s krc.form2n
+scoreboard players operation Form_Difference krc.form3n -= @s krc.form3n
+function #krc_core:post_check/gm_jyamato_rider
+advancement grant @s only krc_core:player_transformed

@@ -1,0 +1,23 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": [
+		  "kamenridercraft:v3head"
+		]
+	  },
+	  "chest": {
+		"items": [
+		  "kamenridercraft:v3troso"
+		]
+	  },
+	  "legs": {
+		"items": [
+		  "kamenridercraft:v3legs"
+		]
+	  }
+	}
+  }
+}
