@@ -1,4 +1,4 @@
-# Kamen Rider Craft Core Data Pack
+# Kamen Rider Craft Data Core
 
 This Minecraft data pack provides core functionality for other packs designed for the
 [Kamen Rider Craft](https://modrinth.com/mod/kamen-rider-craft) mod.
@@ -22,7 +22,7 @@ Click the icon for the pack to move it to the Selected column, then hit Done.
 ### Installing on a new world
 
 Install on a new world by clicking the Data Packs button on the Create New World screen under
-the More tab, then drag and drop the zip file for the Kamen-Rider-Craft-Sounds pack onto the
+the More tab, then drag and drop the zip file for the Kamen-Rider-Craft-Data-Core pack onto the
 Minecraft Window. This should make it show up in the Available column.
 Click the icon for the pack to move it to the Selected column, then hit Done. The pack will
 be activated as soon as you create the world.
