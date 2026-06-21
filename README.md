@@ -1,4 +1,4 @@
-# Kamen Rider Craft Core Data Pack
+# Kamen Rider Craft Data Core
 
 This Minecraft data pack provides core functionality for other packs designed for the
 [Kamen Rider Craft](https://modrinth.com/mod/kamen-rider-craft) mod.
