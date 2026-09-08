@@ -28,6 +28,3 @@ in the Singleplayer Worlds list, then click the Open World Folder button.
 
 Once the pack has been copied, run the `reload` command if you have the world open. The pack
 will activate once the reload is complete.
-
-Once the pack has been copied, you will need to use the `reload` command if you have the world open,
-and it should activate once the reload is complete.
