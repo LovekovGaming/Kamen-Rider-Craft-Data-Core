@@ -53,6 +53,7 @@ execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenr
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:hopper101_ride_chemy_card"}] run scoreboard players set @s krc.form1n 60
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:hopper1_ride_chemy_card_ultima"}] run scoreboard players set @s krc.form1n 61
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:gigantliner_ride_chemy_card_fs"}] run scoreboard players set @s krc.form1n 62
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:hopper_ride_chemy_card"}] run scoreboard players set @s krc.form1n 63
 scoreboard players operation Form_Difference krc.form1n -= @s krc.form1n
 function #krc_core:post_check/gotchard
 advancement grant @s only krc_core:player_transformed

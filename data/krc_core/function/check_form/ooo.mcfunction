@@ -25,6 +25,7 @@ execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenr
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:ancient_taka_medal"}] run scoreboard players set @s krc.form1n 15
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:love_core_medal"}] run scoreboard players set @s krc.form1n 16
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:habataki_medal"}] run scoreboard players set @s krc.form1n 17
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:blokees_taka_medal"}] run scoreboard players set @s krc.form1n 18
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:kujaku_medal"}] run scoreboard players set @s krc.form2n 0
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:tora_medal"}] run scoreboard players set @s krc.form2n 1
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:kamakiri_medal"}] run scoreboard players set @s krc.form2n 2
@@ -46,6 +47,7 @@ execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenr
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:love_core2_medal"}] run scoreboard players set @s krc.form2n 18
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:taiga_medal"}] run scoreboard players set @s krc.form2n 19
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:imagin_medal"}] run scoreboard players set @s krc.form2n 20
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:blokees_kujaku_medal"}] run scoreboard players set @s krc.form2n 21
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:condor_medal"}] run scoreboard players set @s krc.form3n 0
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:cheetah_medal"}] run scoreboard players set @s krc.form3n 1
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:batta_medal"}] run scoreboard players set @s krc.form3n 2
@@ -65,6 +67,7 @@ execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenr
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:love_core3_medal"}] run scoreboard players set @s krc.form3n 16
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:ichigo_medal"}] run scoreboard players set @s krc.form3n 17
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:shocker_medal"}] run scoreboard players set @s krc.form3n 18
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:blokees_condor_medal"}] run scoreboard players set @s krc.form3n 19
 scoreboard players operation Form_Difference krc.form1n -= @s krc.form1n
 scoreboard players operation Form_Difference krc.form2n -= @s krc.form2n
 scoreboard players operation Form_Difference krc.form3n -= @s krc.form3n

@@ -17,7 +17,7 @@ execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenr
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:booster_capsem"}] run scoreboard players set @s krc.form1n 11
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:dualmare_capsem"}] run scoreboard players set @s krc.form1n 12
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:dualmare_capsem_orderm"}] run scoreboard players set @s krc.form1n 13
-execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:movie_form_capsem"}] run scoreboard players set @s krc.form1n 14
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:impact_capsem_shock"}] run scoreboard players set @s krc.form1n 14
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:zeztz_and_code_zeroider_capsem"}] run scoreboard players set @s krc.form1n 15
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:charge_capsem"}] run scoreboard players set @s krc.form1n 16
 scoreboard players operation Form_Difference krc.form1n -= @s krc.form1n

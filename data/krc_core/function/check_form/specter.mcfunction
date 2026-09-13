@@ -71,6 +71,7 @@ execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenr
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:ghost_ghost_eyecon"}] run scoreboard players set @s krc.form2n 59
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:ex_aid_ghost_eyecon"}] run scoreboard players set @s krc.form2n 60
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:fourtyfive_showa_ghost_eyecon"}] run scoreboard players set @s krc.form2n 61
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:deep_specter_damashii_gekikou"}] run scoreboard players set @s krc.form2n 62
 scoreboard players operation Form_Difference krc.form1n -= @s krc.form1n
 scoreboard players operation Form_Difference krc.form2n -= @s krc.form2n
 function #krc_core:post_check/specter
