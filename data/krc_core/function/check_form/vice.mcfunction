@@ -22,8 +22,6 @@ execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenr
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:barid_rex_vistamp_vice"}] run scoreboard players set @s krc.form1n 16
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:volcano_vistamp_vice"}] run scoreboard players set @s krc.form1n 17
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:giffard_rex_vistamp_vice"}] run scoreboard players set @s krc.form1n 18
-# remove after CF update
-execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:gold_spino_vice"}] run scoreboard players set @s krc.form1n 19
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:gold_spino_vistamp_vice"}] run scoreboard players set @s krc.form1n 19
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:proto_jackal_vistamp"}] run scoreboard players set @s krc.form1n 20
 scoreboard players operation Form_Difference krc.form1n -= @s krc.form1n
