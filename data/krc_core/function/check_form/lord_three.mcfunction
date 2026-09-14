@@ -6,7 +6,7 @@ scoreboard players operation Form_Difference krc.form1n = @s krc.form1n
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:extra_capsem"}] run scoreboard players set @s krc.form1n 0
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:clear_capsem"}] run scoreboard players set @s krc.form1n 1
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:lord_booster_capsem"}] run scoreboard players set @s krc.form1n 2
-execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:break_code_down_capsem"}] run scoreboard players set @s krc.form1n 2
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:break_code_down_capsem"}] run scoreboard players set @s krc.form1n 3
 scoreboard players operation Form_Difference krc.form1n -= @s krc.form1n
 function #krc_core:post_check/lord_three
 advancement grant @s only krc_core:player_transformed
