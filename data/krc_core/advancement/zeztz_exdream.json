@@ -17,8 +17,32 @@
 		  }
 		]
 	  }
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "nbt": "{attributes:[{base:200.0d,id:\"kamenridercraft:is_transforming\"}]}",
+		  "equipment": {
+			"feet": {
+			  "items": "kamenridercraft:zeztz_exdream_driver"
+			}
+		  }
+		},
+		"items": [
+		  {
+			"items": "kamenridercraft:zeztz_exdream_driver"
+		  }
+		]
+	  }
 	}
   },
+  "requirements": [
+	[
+	  "1",
+	  "2"
+	]
+  ],
   "rewards": {
 	"function": "krc_core:check_form/zeztz_exdream"
   }
