@@ -1,4 +1,5 @@
 advancement revoke @s only krc_core:drive_dead_heat
+function krc_core:preprocess_belt
 function #krc_core:pre_check/drive_dead_heat
 execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #krc_core:first_henshin/drive_dead_heat
 

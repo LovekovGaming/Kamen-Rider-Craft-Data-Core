@@ -1,4 +1,5 @@
 advancement revoke @s only krc_core:lord_six
+function krc_core:preprocess_belt
 function #krc_core:pre_check/lord_six
 execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #krc_core:first_henshin/lord_six
 

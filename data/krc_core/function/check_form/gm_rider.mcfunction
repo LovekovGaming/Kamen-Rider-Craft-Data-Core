@@ -1,4 +1,5 @@
 advancement revoke @s only krc_core:gm_rider
+function krc_core:preprocess_belt
 function #krc_core:pre_check/gm_rider
 execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex2 unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex3 run function #krc_core:first_henshin/gm_rider
 

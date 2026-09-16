@@ -1,4 +1,5 @@
 advancement revoke @s only krc_core:vice_dgp
+function krc_core:preprocess_belt
 function #krc_core:pre_check/vice_dgp
 execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex2 unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex3 run function #krc_core:first_henshin/vice_dgp
 
