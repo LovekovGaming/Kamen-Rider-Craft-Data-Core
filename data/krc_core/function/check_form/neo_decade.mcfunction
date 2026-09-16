@@ -72,6 +72,7 @@ execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenr
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:ex_aid_card"}] run scoreboard players set @s krc.form1n 66
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:build_card"}] run scoreboard players set @s krc.form1n 67
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:zi_o_card"}] run scoreboard players set @s krc.form1n 68
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:decade_ooo_armor_card"}] run scoreboard players set @s krc.form1n 69
 scoreboard players operation Form_Difference krc.form1n -= @s krc.form1n
 function #krc_core:post_check/neo_decade
 advancement grant @s only krc_core:player_transformed
