@@ -4,19 +4,13 @@
   "predicate": {
 	"equipment": {
 	  "head": {
-		"items": [
-		  "kamenridercraft:the_ichigo_head"
-		]
+		"items": "kamenridercraft:the_ichigo_head"
 	  },
 	  "chest": {
-		"items": [
-		  "kamenridercraft:the_ichigo_troso"
-		]
+		"items": "kamenridercraft:the_ichigo_troso"
 	  },
 	  "legs": {
-		"items": [
-		  "kamenridercraft:the_ichigo_legs"
-		]
+		"items": "kamenridercraft:the_ichigo_legs"
 	  }
 	}
   }

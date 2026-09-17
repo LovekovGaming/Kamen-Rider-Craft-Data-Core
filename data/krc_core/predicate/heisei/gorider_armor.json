@@ -4,19 +4,13 @@
   "predicate": {
 	"equipment": {
 	  "head": {
-		"items": [
-		  "kamenridercraft:akariderhead"
-		]
+		"items": "kamenridercraft:akariderhead"
 	  },
 	  "chest": {
-		"items": [
-		  "kamenridercraft:akaridertroso"
-		]
+		"items": "kamenridercraft:akaridertroso"
 	  },
 	  "legs": {
-		"items": [
-		  "kamenridercraft:akariderlegs"
-		]
+		"items": "kamenridercraft:akariderlegs"
 	  }
 	}
   }
