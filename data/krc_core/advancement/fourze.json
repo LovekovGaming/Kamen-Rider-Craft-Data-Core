@@ -17,8 +17,32 @@
 		  }
 		]
 	  }
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "nbt": "{attributes:[{base:35.0d,id:\"kamenridercraft:is_transforming\"}]}",
+		  "equipment": {
+			"feet": {
+			  "items": "kamenridercraft:fourze_driver"
+			}
+		  }
+		},
+		"items": [
+		  {
+			"items": "kamenridercraft:fourze_driver"
+		  }
+		]
+	  }
 	}
   },
+  "requirements": [
+	[
+	  "1",
+	  "2"
+	]
+  ],
   "rewards": {
 	"function": "krc_core:check_form/fourze"
   }

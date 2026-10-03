@@ -17,8 +17,51 @@
 		  }
 		]
 	  }
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "nbt": "{attributes:[{base:20.0d,id:\"kamenridercraft:is_transforming\"}]}",
+		  "equipment": {
+			"feet": {
+			  "items": "kamenridercraft:alter_ring"
+			}
+		  }
+		},
+		"items": [
+		  {
+			"items": "kamenridercraft:alter_ring"
+		  }
+		]
+	  }
+	},
+	"3": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "nbt": "{attributes:[{base:37.0d,id:\"kamenridercraft:is_transforming\"}]}",
+		  "equipment": {
+			"feet": {
+			  "items": "kamenridercraft:alter_ring"
+			}
+		  }
+		},
+		"items": [
+		  {
+			"items": "kamenridercraft:alter_ring"
+		  }
+		]
+	  }
 	}
   },
+  "requirements": [
+	[
+	  "1",
+	  "2",
+	  "3"
+	]
+  ],
   "rewards": {
 	"function": "krc_core:check_form/agito"
   }

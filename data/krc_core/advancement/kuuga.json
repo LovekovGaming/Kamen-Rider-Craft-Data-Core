@@ -17,8 +17,32 @@
 		  }
 		]
 	  }
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": {
+		  "nbt": "{attributes:[{base:35.0d,id:\"kamenridercraft:is_transforming\"}]}",
+		  "equipment": {
+			"feet": {
+			  "items": "kamenridercraft:arcle"
+			}
+		  }
+		},
+		"items": [
+		  {
+			"items": "kamenridercraft:arcle"
+		  }
+		]
+	  }
 	}
   },
+  "requirements": [
+	[
+	  "1",
+	  "2"
+	]
+  ],
   "rewards": {
 	"function": "krc_core:check_form/kuuga"
   }
