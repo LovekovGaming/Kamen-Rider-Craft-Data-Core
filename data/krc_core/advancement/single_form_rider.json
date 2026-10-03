@@ -1,0 +1,45 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+		          "nbt": "{attributes:[{base:30.0d,id:\"kamenridercraft:is_transforming\"}]}",
+              "equipment": {
+                "feet": {
+                  "items": "#kamenridercraft:rider_foot_armor"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "#krc_core:multi_form_riders"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "#kamenridercraft:rider_foot_armor"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "krc_core:single_form_rider"
+  }
+}
