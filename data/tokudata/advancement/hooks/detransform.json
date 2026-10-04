@@ -24,6 +24,10 @@
               {
                 "condition": "minecraft:reference",
                 "name": "tokudata:rider/detransformed"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "tokudata:ultra/detransformed"
               }
             ]
           }
