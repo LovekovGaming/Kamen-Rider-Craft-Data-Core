@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "#kamenridercraft:rider_foot_armor",
+      "required": false
+    },
+    {
+      "id": "#supersentaicraft:changer",
+      "required": false
+    },
+    {
+      "id": "#ultracraft:riser",
+      "required": false
+    },
+    {
+      "id": "#powerrangerscraft:morpher",
+      "required": false
+    },
+    {
+      "id": "#tmntcraft:henshin_devices",
+      "required": false
+    }
+  ]
+}

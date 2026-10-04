@@ -1,0 +1,51 @@
+{
+	"parent": "tokudata:hooks/detransform",
+	"criteria": {
+	  "grace": {
+		"trigger": "minecraft:tick",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"type_specific": {
+				  "type": "minecraft:player",
+				  "advancements": {
+					"tokudata:hooks/detransform": {
+					  "hook": true
+					}
+				  }
+				}
+			  }
+			}
+		  ]
+		}
+	  },
+	  "clear": {
+		"trigger": "minecraft:tick",
+		"conditions": {
+		  "player": [
+			{
+			  "condition": "minecraft:entity_properties",
+			  "entity": "this",
+			  "predicate": {
+				"type_specific": {
+				  "type": "minecraft:player",
+				  "advancements": {
+					"tokudata:hooks/detransform_clear": {
+					  "grace": true
+					}
+				  }
+				}
+			  }
+			}
+		  ]
+		}
+	  }
+	},
+	"rewards": {
+	  "function": "tokudata:reset"
+	}
+  }
+  

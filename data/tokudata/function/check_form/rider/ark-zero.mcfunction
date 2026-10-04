@@ -1,0 +1,14 @@
+advancement revoke @s only tokudata:transform/rider/ark-zero
+function tokudata:preprocess_belt
+function #tokudata:pre_check/rider/ark-zero
+execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_henshin/ark-zero
+
+scoreboard players operation Form_Difference toku.form1 = @s toku.form1
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:ark_zero_progrisekey"}] run scoreboard players set @s toku.form1 0
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:ark_zero_ride_chemy_card"}] run scoreboard players set @s toku.form1 1
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:ark_one_progrisekey"}] run scoreboard players set @s toku.form1 2
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:ark_one_ride_chemy_card"}] run scoreboard players set @s toku.form1 3
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:ark_one_malgam"}] run scoreboard players set @s toku.form1 4
+scoreboard players operation Form_Difference toku.form1 -= @s toku.form1
+function #tokudata:post_check/rider/ark-zero
+advancement grant @s only tokudata:player_transformed

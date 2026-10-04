@@ -1,5 +1,5 @@
 {
 	"values": [
-		"krc_core:init"
+		"tokudata:init"
 	]
 }

@@ -1,0 +1,85 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tokudata:single_form_transform"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "items": "#tokudata:henshin_devices",
+                  "predicates": {
+                    "minecraft:custom_data": {
+                      "slot_tex_old1": "kamenridercraft:blank_form"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "#tokudata:henshin_devices",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Update_form": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    "2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tokudata:single_form_transform"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "items": "#tokudata:henshin_devices",
+                  "components": {
+                    "minecraft:custom_data": "{Update_form:false,render_type:0.0d}"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "#tokudata:henshin_devices",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Update_form": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "1",
+      "2"
+    ]
+  ],
+  "rewards": {
+    "function": "tokudata:check_form/single_form_hero"
+  }
+}

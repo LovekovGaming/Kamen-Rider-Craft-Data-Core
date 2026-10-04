@@ -1,0 +1,98 @@
+{
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tokudata:installed/kamenridercraft"
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{attributes:[{base:30.0d,id:\"kamenridercraft:is_transforming\"}]}",
+              "equipment": {
+                "feet": {
+			  "items": "kamenridercraft:alter_ring"
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+		  {
+			"items": "kamenridercraft:alter_ring"
+		  }
+		]
+	  }
+	},
+	"2": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tokudata:installed/kamenridercraft"
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{attributes:[{base:20.0d,id:\"kamenridercraft:is_transforming\"}]}",
+              "equipment": {
+                "feet": {
+			  "items": "kamenridercraft:zeztz_driver"
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+		  {
+			"items": "kamenridercraft:zeztz_driver"
+		  }
+		]
+	  }
+	},
+	"3": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+		"player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tokudata:installed/kamenridercraft"
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{attributes:[{base:37.0d,id:\"kamenridercraft:is_transforming\"}]}",
+              "equipment": {
+                "feet": {
+			  "items": "kamenridercraft:zeztz_driver"
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+		  {
+			"items": "kamenridercraft:zeztz_driver"
+		  }
+		]
+	  }
+	}
+  },
+  "requirements": [
+	[
+	  "1",
+	  "2",
+	  "3"
+	]
+  ],
+  "rewards": {
+	"function": "tokudata:check_form/rider/agito"
+  }
+}
