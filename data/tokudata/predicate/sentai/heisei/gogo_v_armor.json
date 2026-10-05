@@ -4,13 +4,13 @@
   "predicate": {
 	"equipment": {
 	  "head": {
-		"items": "supersentaicraft:gingaman_head"
+		"items": "supersentaicraft:gogo_v_head"
 	  },
 	  "chest": {
-		"items": "supersentaicraft:gingaman_torso"
+		"items": "supersentaicraft:gogo_v_torso"
 	  },
 	  "legs": {
-		"items": "supersentaicraft:gingaman_legs"
+		"items": "supersentaicraft:gogo_v_legs"
 	  }
 	}
   }
