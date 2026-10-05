@@ -44,7 +44,6 @@ execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"supers
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"supersentaicraft:kagayaki_soul"}] run scoreboard players set @s toku.form2 33
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"supersentaicraft:cosmo_soul"}] run scoreboard players set @s toku.form2 34
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"supersentaicraft:dosshin_soul"}] run scoreboard players set @s toku.form2 35
-execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"supersentaicraft:hiehie_soul"}] run scoreboard players set @s toku.form2 36
 scoreboard players operation Form_Difference toku.form1 -= @s toku.form1
 scoreboard players operation Form_Difference toku.form2 -= @s toku.form2
 function #tokudata:post_check/sentai/lupat/lupin_blue
