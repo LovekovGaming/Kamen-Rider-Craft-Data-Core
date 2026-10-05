@@ -32,6 +32,10 @@
               {
                 "condition": "minecraft:reference",
                 "name": "tokudata:ultra/detransformed"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "tokudata:tmnt/detransformed"
               }
             ]
           }

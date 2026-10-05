@@ -1,0 +1,57 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "tokudata:installed/tmntcraft"
+  },
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:all_of",
+        "terms": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "items": "#tmntcraft:henshin_devices"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:reference",
+              "name": "tokudata:tmnt/armor"
+            }
+          }
+        ]
+      },
+      {
+        "condition": "minecraft:all_of",
+        "terms": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tokudata:tmnt/armor"
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "#tmntcraft:henshin_devices"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
