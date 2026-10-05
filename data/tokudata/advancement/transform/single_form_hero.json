@@ -1,6 +1,66 @@
 {
   "criteria": {
-    "1": {
+    "sentai_new": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "items": "#supersentaicraft:changer"
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "#tokudata:multi_form_heroes"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "predicates": {
+                      "minecraft:custom_data": {
+                "rider_kicking": false
+              }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "#supersentaicraft:changer",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Update_form": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    "sentai_used": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [
@@ -14,11 +74,9 @@
             "predicate": {
               "equipment": {
                 "feet": {
-                  "items": "#tokudata:henshin_devices",
-                  "predicates": {
-                    "minecraft:custom_data": {
-                      "slot_tex_old1": "kamenridercraft:blank_form"
-                    }
+                  "items": "#supersentaicraft:changer",
+                  "components": {
+                    "minecraft:custom_data": "{Update_form:false,render_type:1.0d,rider_kick_cooldown:200.0d,rider_kick_tick:0.0d,rider_kicking:false}"
                   }
                 }
               }
@@ -37,7 +95,7 @@
         ]
       }
     },
-    "2": {
+    "other": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [
@@ -52,8 +110,8 @@
               "equipment": {
                 "feet": {
                   "items": "#tokudata:henshin_devices",
-                  "components": {
-                    "minecraft:custom_data": "{Update_form:false,render_type:0.0d}"
+                  "predicates": {
+                    "minecraft:custom_data": "{render_type:0.0d}"
                   }
                 }
               }
@@ -75,8 +133,9 @@
   },
   "requirements": [
     [
-      "1",
-      "2"
+      "sentai_new",
+      "sentai_used",
+      "other"
     ]
   ],
   "rewards": {

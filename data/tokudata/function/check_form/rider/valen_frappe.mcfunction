@@ -1,7 +1,7 @@
 advancement revoke @s only tokudata:transform/rider/valen_frappe
 function tokudata:preprocess_belt
 function #tokudata:pre_check/rider/valen_frappe
-execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_henshin/valen_frappe
+execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_transform/rider/valen_frappe
 
 scoreboard players operation Form_Difference toku.form1 = @s toku.form1
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:frappeis_gochizo"}] run scoreboard players set @s toku.form1 0

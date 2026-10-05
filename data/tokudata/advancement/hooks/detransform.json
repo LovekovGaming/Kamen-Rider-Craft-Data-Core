@@ -27,6 +27,10 @@
               },
               {
                 "condition": "minecraft:reference",
+                "name": "tokudata:sentai/detransformed"
+              },
+              {
+                "condition": "minecraft:reference",
                 "name": "tokudata:ultra/detransformed"
               }
             ]

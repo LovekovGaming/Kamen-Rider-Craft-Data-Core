@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": "supersentaicraft:lupat_head"
+	  },
+	  "chest": {
+		"items": "supersentaicraft:lupat_torso"
+	  },
+	  "legs": {
+		"items": "supersentaicraft:lupat_legs"
+	  }
+	}
+  }
+}

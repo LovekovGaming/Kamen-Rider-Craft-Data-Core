@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "chest": {
+		"items": "supersentaicraft:dai_denzin_torso"
+	  },
+	  "legs": {
+		"items": "supersentaicraft:dai_denzin_legs"
+	  },
+	  "feet": {
+		"items": "supersentaicraft:dai_denzin_boots"
+	  }
+	}
+  }
+}

@@ -1,7 +1,7 @@
 advancement revoke @s only tokudata:transform/rider/ghost
 function tokudata:preprocess_belt
 function #tokudata:pre_check/rider/ghost
-execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_henshin/ghost
+execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_transform/rider/ghost
 
 scoreboard players operation Form_Difference toku.form1 = @s toku.form1
 scoreboard players operation Form_Difference toku.form2 = @s toku.form2

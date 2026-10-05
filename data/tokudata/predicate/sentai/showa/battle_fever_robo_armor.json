@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "chest": {
+		"items": "supersentaicraft:battle_fever_robo_torso"
+	  },
+	  "legs": {
+		"items": "supersentaicraft:battle_fever_robo_legs"
+	  },
+	  "feet": {
+		"items": "supersentaicraft:battle_fever_robo_boots"
+	  }
+	}
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": "supersentaicraft:maskman_head"
+	  },
+	  "chest": {
+		"items": "supersentaicraft:maskman_torso"
+	  },
+	  "legs": {
+		"items": "supersentaicraft:maskman_legs"
+	  }
+	}
+  }
+}

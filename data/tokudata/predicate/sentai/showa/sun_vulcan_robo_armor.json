@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "chest": {
+		"items": "supersentaicraft:sun_vulcan_robo_torso"
+	  },
+	  "legs": {
+		"items": "supersentaicraft:sun_vulcan_robo_legs"
+	  },
+	  "feet": {
+		"items": "supersentaicraft:sun_vulcan_robo_boots"
+	  }
+	}
+  }
+}

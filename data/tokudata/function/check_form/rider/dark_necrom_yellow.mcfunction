@@ -1,7 +1,7 @@
 advancement revoke @s only tokudata:transform/rider/dark_necrom_yellow
 function tokudata:preprocess_belt
 function #tokudata:pre_check/rider/dark_necrom_yellow
-execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_henshin/dark_necrom_yellow
+execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_transform/rider/dark_necrom_yellow
 
 scoreboard players operation Form_Difference toku.form2 = @s toku.form2
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:dark_necrom_yellow_ghost_eyecon"}] run scoreboard players set @s toku.form2 0

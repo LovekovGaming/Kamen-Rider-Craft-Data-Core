@@ -1,7 +1,7 @@
 advancement revoke @s only tokudata:transform/rider/maja
 function tokudata:preprocess_belt
 function #tokudata:pre_check/rider/maja
-execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_henshin/maja
+execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_transform/rider/maja
 
 scoreboard players operation Form_Difference toku.form1 = @s toku.form1
 scoreboard players operation Form_Difference toku.form2 = @s toku.form2

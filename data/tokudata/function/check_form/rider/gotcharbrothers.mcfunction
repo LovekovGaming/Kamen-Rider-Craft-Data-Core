@@ -1,7 +1,7 @@
 advancement revoke @s only tokudata:transform/rider/gotcharbrothers
 function tokudata:preprocess_belt
 function #tokudata:pre_check/rider/gotcharbrothers
-execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_henshin/gotcharbrothers
+execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_transform/rider/gotcharbrothers
 
 scoreboard players operation Form_Difference toku.form1 = @s toku.form1
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:hopper1_ride_chemy_card"}] run scoreboard players set @s toku.form1 0

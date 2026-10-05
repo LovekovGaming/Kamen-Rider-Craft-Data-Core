@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": "supersentaicraft:shinkenger_head"
+	  },
+	  "chest": {
+		"items": "supersentaicraft:shinkenger_torso"
+	  },
+	  "legs": {
+		"items": "supersentaicraft:shinkenger_legs"
+	  }
+	}
+  }
+}

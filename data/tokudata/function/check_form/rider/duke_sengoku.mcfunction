@@ -1,7 +1,7 @@
 advancement revoke @s only tokudata:transform/rider/duke_sengoku
 function tokudata:preprocess_belt
 function #tokudata:pre_check/rider/duke_sengoku
-execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_henshin/duke_sengoku
+execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_transform/rider/duke_sengoku
 
 scoreboard players operation Form_Difference toku.form1 = @s toku.form1
 scoreboard players operation Form_Difference toku.form2 = @s toku.form2

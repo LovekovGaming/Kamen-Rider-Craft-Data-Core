@@ -1,0 +1,35 @@
+{
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tokudata:installed/supersentaicraft"
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{attributes:[{base:30.0d,id:\"supersentaicraft:is_transforming\"}]}",
+              "equipment": {
+                "feet": {
+			  "items": "supersentaicraft:kuwagata_ohger_calibur"
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+		  {
+			"items": "supersentaicraft:kuwagata_ohger_calibur"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+	"function": "tokudata:check_form/sentai/king-ohger/kuwagata_ohger"
+  }
+}

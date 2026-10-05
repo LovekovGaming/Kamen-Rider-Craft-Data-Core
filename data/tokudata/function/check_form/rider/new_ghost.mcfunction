@@ -1,7 +1,7 @@
 advancement revoke @s only tokudata:transform/rider/new_ghost
 function tokudata:preprocess_belt
 function #tokudata:pre_check/rider/new_ghost
-execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_henshin/new_ghost
+execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_transform/rider/new_ghost
 
 scoreboard players operation Form_Difference toku.form2 = @s toku.form2
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:new_ore_ghost_eyecon"}] run scoreboard players set @s toku.form2 0

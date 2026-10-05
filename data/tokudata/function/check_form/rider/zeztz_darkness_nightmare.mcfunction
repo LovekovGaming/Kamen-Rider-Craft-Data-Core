@@ -1,7 +1,7 @@
 advancement revoke @s only tokudata:transform/rider/zeztz_darkness_nightmare
 function tokudata:preprocess_belt
 function #tokudata:pre_check/rider/zeztz_darkness_nightmare
-execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_henshin/zeztz_darkness_nightmare
+execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_transform/rider/zeztz_darkness_nightmare
 
 scoreboard players operation Form_Difference toku.form1 = @s toku.form1
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:darkness_capsem"}] run scoreboard players set @s toku.form1 0

@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": "supersentaicraft:gozyuger_head"
+	  },
+	  "chest": {
+		"items": "supersentaicraft:gozyuger_torso"
+	  },
+	  "legs": {
+		"items": "supersentaicraft:gozyuger_legs"
+	  }
+	}
+  }
+}

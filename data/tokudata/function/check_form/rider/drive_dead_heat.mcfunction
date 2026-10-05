@@ -1,7 +1,7 @@
 advancement revoke @s only tokudata:transform/rider/drive_dead_heat
 function tokudata:preprocess_belt
 function #tokudata:pre_check/rider/drive_dead_heat
-execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_henshin/drive_dead_heat
+execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run function #tokudata:first_transform/rider/drive_dead_heat
 
 scoreboard players operation Form_Difference toku.form1 = @s toku.form1
 scoreboard players operation Form_Difference toku.form2 = @s toku.form2
