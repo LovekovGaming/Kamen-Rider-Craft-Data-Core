@@ -9,6 +9,10 @@
             "name": "tokudata:installed/powerrangerscraft"
           },
           {
+            "condition": "minecraft:reference",
+            "name": "tokudata:power_ranger/saban/lost_galaxy_armor"
+          },
+          {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
