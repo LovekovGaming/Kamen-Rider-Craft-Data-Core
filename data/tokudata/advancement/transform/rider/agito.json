@@ -43,7 +43,7 @@
               "nbt": "{attributes:[{base:20.0d,id:\"kamenridercraft:is_transforming\"}]}",
               "equipment": {
                 "feet": {
-			  "items": "kamenridercraft:zeztz_driver"
+			  "items": "kamenridercraft:alter_ring"
                 }
               }
             }
@@ -51,7 +51,7 @@
         ],
         "items": [
 		  {
-			"items": "kamenridercraft:zeztz_driver"
+			"items": "kamenridercraft:alter_ring"
 		  }
 		]
 	  }
@@ -71,7 +71,7 @@
               "nbt": "{attributes:[{base:37.0d,id:\"kamenridercraft:is_transforming\"}]}",
               "equipment": {
                 "feet": {
-			  "items": "kamenridercraft:zeztz_driver"
+			  "items": "kamenridercraft:alter_ring"
                 }
               }
             }
@@ -79,7 +79,7 @@
         ],
         "items": [
 		  {
-			"items": "kamenridercraft:zeztz_driver"
+			"items": "kamenridercraft:alter_ring"
 		  }
 		]
 	  }
