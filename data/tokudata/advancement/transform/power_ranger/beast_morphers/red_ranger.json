@@ -1,0 +1,48 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tokudata:installed/powerrangerscraft"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "tokudata:power_ranger/hasbro/beast_morphers_armor"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "items": "powerrangerscraft:red_beast_x_morpher",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Update_form": true
+              }
+            }
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "powerrangerscraft:red_beast_x_morpher",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Update_form": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tokudata:check_form/power_ranger/beast_morphers/red_ranger"
+  }
+}

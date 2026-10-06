@@ -1,0 +1,48 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tokudata:installed/powerrangerscraft"
+          },
+          {
+            "condition": "minecraft:reference",
+            "name": "tokudata:power_ranger/hasbro/dino_fury_armor"
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "items": "powerrangerscraft:pink_dino_fury_morpher",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Update_form": true
+              }
+            }
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "powerrangerscraft:pink_dino_fury_morpher",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Update_form": true
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tokudata:check_form/power_ranger/dino_fury/pink_ranger"
+  }
+}
