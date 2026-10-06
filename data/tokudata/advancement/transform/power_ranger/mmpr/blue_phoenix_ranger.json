@@ -14,7 +14,7 @@
             "predicate": {
               "equipment": {
                 "feet": {
-                  "items": "powerrangerscraft:blue_phoenix_power_morpher",
+                  "items": "powerrangerscraft:blazing_phoenix_power_morpher",
             "predicates": {
               "minecraft:custom_data": {
                 "Update_form": true
@@ -27,7 +27,7 @@
         ],
         "items": [
           {
-            "items": "powerrangerscraft:blue_phoenix_power_morpher",
+            "items": "powerrangerscraft:blazing_phoenix_power_morpher",
             "predicates": {
               "minecraft:custom_data": {
                 "Update_form": true
