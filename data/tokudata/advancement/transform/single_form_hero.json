@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "sentai_new": {
+    "sentai": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [
@@ -8,17 +8,6 @@
     "condition": "minecraft:reference",
     "name": "tokudata:installed/supersentaicraft"
   },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
-                "feet": {
-                  "items": "#supersentaicraft:changer"
-                }
-              }
-            }
-          },
           {
             "condition": "minecraft:inverted",
             "term": {
@@ -34,19 +23,13 @@
             }
           },
           {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "equipment": {
-                  "feet": {
-                    "predicates": {
-                      "minecraft:custom_data": {
-                "rider_kicking": false
-              }
-                    }
-                  }
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+            "nbt": "{attributes:[{base:30.0d,id:\"supersentaicraft:is_transforming\"}]}",
+              "equipment": {
+                "feet": {
+                  "items": "#supersentaicraft:changer"
                 }
               }
             }
@@ -64,41 +47,6 @@
         ]
       }
     },
-    "sentai_used": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "player": [
-  {
-    "condition": "minecraft:reference",
-    "name": "tokudata:installed/supersentaicraft"
-  },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
-                "feet": {
-                  "items": "#supersentaicraft:changer",
-                  "components": {
-                    "minecraft:custom_data": "{Update_form:false,render_type:1.0d,rider_kick_cooldown:200.0d,rider_kick_tick:0.0d,rider_kicking:false}"
-                  }
-                }
-              }
-            }
-          }
-        ],
-        "items": [
-          {
-            "items": "#tokudata:henshin_devices",
-            "predicates": {
-              "minecraft:custom_data": {
-                "Update_form": false
-              }
-            }
-          }
-        ]
-      }
-    },
     "power_ranger": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -107,20 +55,6 @@
     "condition": "minecraft:reference",
     "name": "tokudata:installed/powerrangerscraft"
   },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
-                "feet": {
-                  "items": "#powerrangerscraft:morpher",
-            "predicates": {
-              "minecraft:custom_data": "{is_transforming:119.0d}"
-            }
-                }
-              }
-            }
-          },
           {
             "condition": "minecraft:inverted",
             "term": {
@@ -153,29 +87,13 @@
           {
             "condition": "minecraft:reference",
             "name": "tokudata:single_form_transform"
-          },
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
-                "feet": {
-                  "items": "#tokudata:henshin_devices",
-                  "predicates": {
-                    "minecraft:custom_data": "{render_type:0.0d}"
-                  }
-                }
-              }
-            }
           }
         ],
         "items": [
           {
             "items": "#tokudata:henshin_devices",
             "predicates": {
-              "minecraft:custom_data": {
-                "Update_form": false
-              }
+              "minecraft:custom_data": "{Update_form:false,render_type:0.0d}"
             }
           }
         ]
@@ -184,8 +102,7 @@
   },
   "requirements": [
     [
-      "sentai_new",
-      "sentai_used",
+      "sentai",
       "power_ranger",
       "other"
     ]
