@@ -20,9 +20,7 @@
                 "feet": {
                   "items": "powerrangerscraft:samurai_morpher",
             "predicates": {
-              "minecraft:custom_data": {
-                "Update_form": true
-              }
+              "minecraft:custom_data": "{is_transforming:119.0d}"
             }
                 }
               }
@@ -33,9 +31,7 @@
           {
             "items": "powerrangerscraft:samurai_morpher",
             "predicates": {
-              "minecraft:custom_data": {
-                "Update_form": true
-              }
+              "minecraft:custom_data": "{is_transforming:119.0d}"
             }
           }
         ]

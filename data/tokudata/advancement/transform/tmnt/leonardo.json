@@ -20,9 +20,7 @@
                 "feet": {
                   "items": "tmntcraft:leo_mask",
             "predicates": {
-              "minecraft:custom_data": {
-                "Update_form": true
-              }
+              "minecraft:custom_data": "{is_transforming:120.0d}"
             }
                 }
               }
@@ -33,9 +31,7 @@
           {
             "items": "tmntcraft:leo_mask",
             "predicates": {
-              "minecraft:custom_data": {
-                "Update_form": true
-              }
+              "minecraft:custom_data": "{is_transforming:120.0d}"
             }
           }
         ]
