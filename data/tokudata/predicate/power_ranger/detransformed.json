@@ -1,0 +1,135 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "tokudata:installed/powerrangerscraft"
+  },
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/others/hyperforce_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/others/solar_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/others/omega_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/others/prime_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/others/ranger_academy_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/others/reboot_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/others/starranger_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/saban/mmpr_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/saban/alien_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/saban/zeo_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/saban/turbo_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/saban/in_space_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/saban/lost_galaxy_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/saban/lightspeed_rescue_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/saban/time_force_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/saban/wild_force_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/disney/ninja_storm_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/disney/dino_thunder_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/disney/spd_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/disney/mystic_force_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/disney/operation_overdrive_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/disney/jungle_fury_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/disney/rpm_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/neo_saban/samurai_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/neo_saban/megaforce_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/neo_saban/super_megaforce_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/neo_saban/dino_charge_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/neo_saban/ninja_steel_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/hasbro/beast_morphers_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/hasbro/dino_fury_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:power_ranger/hasbro/cosmic_fury_detransformed"
+      }
+    ]
+  }
+]

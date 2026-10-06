@@ -31,6 +31,10 @@
               },
               {
                 "condition": "minecraft:reference",
+                "name": "tokudata:power_ranger/detransformed"
+              },
+              {
+                "condition": "minecraft:reference",
                 "name": "tokudata:ultra/detransformed"
               },
               {

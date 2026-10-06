@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": "powerrangerscraft:lightspeed_rescue_head"
+	  },
+	  "chest": {
+		"items": "powerrangerscraft:lightspeed_rescue_torso"
+	  },
+	  "legs": {
+		"items": "powerrangerscraft:lightspeed_rescue_legs"
+	  }
+	}
+  }
+}

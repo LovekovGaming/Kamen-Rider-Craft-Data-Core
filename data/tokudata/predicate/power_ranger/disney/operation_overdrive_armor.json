@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": "powerrangerscraft:operation_overdrive_head"
+	  },
+	  "chest": {
+		"items": "powerrangerscraft:operation_overdrive_torso"
+	  },
+	  "legs": {
+		"items": "powerrangerscraft:operation_overdrive_legs"
+	  }
+	}
+  }
+}

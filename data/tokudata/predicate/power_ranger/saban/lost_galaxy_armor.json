@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": "powerrangerscraft:lost_galaxy_head"
+	  },
+	  "chest": {
+		"items": "powerrangerscraft:lost_galaxy_torso"
+	  },
+	  "legs": {
+		"items": "powerrangerscraft:lost_galaxy_legs"
+	  }
+	}
+  }
+}
