@@ -4,6 +4,10 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [
+  {
+    "condition": "minecraft:reference",
+    "name": "tokudata:installed/supersentaicraft"
+  },
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
@@ -64,10 +68,10 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "tokudata:single_form_transform"
-          },
+  {
+    "condition": "minecraft:reference",
+    "name": "tokudata:installed/supersentaicraft"
+  },
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
@@ -99,10 +103,10 @@
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "player": [
-          {
-            "condition": "minecraft:reference",
-            "name": "tokudata:single_form_transform"
-          },
+  {
+    "condition": "minecraft:reference",
+    "name": "tokudata:installed/powerrangerscraft"
+  },
           {
             "condition": "minecraft:entity_properties",
             "entity": "this",
@@ -113,6 +117,20 @@
             "predicates": {
               "minecraft:custom_data": "{is_transforming:119.0d}"
             }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "#tokudata:multi_form_heroes"
+                  }
                 }
               }
             }
