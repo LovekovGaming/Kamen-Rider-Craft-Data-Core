@@ -9,6 +9,10 @@
             "name": "tokudata:installed/tmntcraft"
           },
           {
+            "condition": "minecraft:reference",
+            "name": "tokudata:tmnt/armor"
+          },
+          {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
