@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/gaoranger/gaohunter_blue_moon"
+	"function": "tokudata:transform/sentai/gaoranger/gaohunter_blue_moon"
   }
 }

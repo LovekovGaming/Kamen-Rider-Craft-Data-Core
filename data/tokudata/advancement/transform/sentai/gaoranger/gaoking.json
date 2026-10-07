@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/gaoranger/gaoking"
+	"function": "tokudata:transform/sentai/gaoranger/gaoking"
   }
 }

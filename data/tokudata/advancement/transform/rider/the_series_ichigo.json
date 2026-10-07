@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/the_series_ichigo"
+	"function": "tokudata:transform/rider/the_series_ichigo"
   }
 }

@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/genm"
+	"function": "tokudata:transform/rider/genm"
   }
 }

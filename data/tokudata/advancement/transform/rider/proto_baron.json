@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/proto_baron"
+	"function": "tokudata:transform/rider/proto_baron"
   }
 }

@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/tackle"
+	"function": "tokudata:transform/rider/tackle"
   }
 }

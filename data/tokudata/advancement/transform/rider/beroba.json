@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/beroba"
+	"function": "tokudata:transform/rider/beroba"
   }
 }

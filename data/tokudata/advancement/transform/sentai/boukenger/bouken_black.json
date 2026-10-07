@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/boukenger/bouken_black"
+	"function": "tokudata:transform/sentai/boukenger/bouken_black"
   }
 }

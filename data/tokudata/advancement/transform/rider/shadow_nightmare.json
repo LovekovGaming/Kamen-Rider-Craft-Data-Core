@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/shadow_nightmare"
+	"function": "tokudata:transform/rider/shadow_nightmare"
   }
 }

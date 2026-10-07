@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/sun_vulcan/sun_vulcan_robo"
+	"function": "tokudata:transform/sentai/sun_vulcan/sun_vulcan_robo"
   }
 }

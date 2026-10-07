@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/king-ohger/tonbo_ohger"
+	"function": "tokudata:transform/sentai/king-ohger/tonbo_ohger"
   }
 }

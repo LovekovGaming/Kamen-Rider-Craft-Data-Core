@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/gozyuger/garyudo"
+	"function": "tokudata:transform/sentai/gozyuger/garyudo"
   }
 }

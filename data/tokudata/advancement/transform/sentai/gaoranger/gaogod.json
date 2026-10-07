@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/gaoranger/gaogod"
+	"function": "tokudata:transform/sentai/gaoranger/gaogod"
   }
 }

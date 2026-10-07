@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/nadeshiko"
+	"function": "tokudata:transform/rider/nadeshiko"
   }
 }

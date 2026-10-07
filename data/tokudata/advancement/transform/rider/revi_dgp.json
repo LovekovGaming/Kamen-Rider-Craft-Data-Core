@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/revi_dgp"
+	"function": "tokudata:transform/rider/revi_dgp"
   }
 }

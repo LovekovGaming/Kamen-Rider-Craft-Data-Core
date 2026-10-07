@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/next_faiz"
+	"function": "tokudata:transform/rider/next_faiz"
   }
 }

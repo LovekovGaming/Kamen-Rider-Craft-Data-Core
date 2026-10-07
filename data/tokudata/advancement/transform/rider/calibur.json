@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/calibur"
+	"function": "tokudata:transform/rider/calibur"
   }
 }

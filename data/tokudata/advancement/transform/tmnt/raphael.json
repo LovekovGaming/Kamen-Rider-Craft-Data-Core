@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "tokudata:check_form/tmnt/raphael"
+    "function": "tokudata:transform/tmnt/raphael"
   }
 }

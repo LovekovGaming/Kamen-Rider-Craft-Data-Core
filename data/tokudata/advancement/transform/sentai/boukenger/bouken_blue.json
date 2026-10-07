@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/boukenger/bouken_blue"
+	"function": "tokudata:transform/sentai/boukenger/bouken_blue"
   }
 }

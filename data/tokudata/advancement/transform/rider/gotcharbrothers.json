@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/gotcharbrothers"
+	"function": "tokudata:transform/rider/gotcharbrothers"
   }
 }

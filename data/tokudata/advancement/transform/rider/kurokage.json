@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/kurokage"
+	"function": "tokudata:transform/rider/kurokage"
   }
 }

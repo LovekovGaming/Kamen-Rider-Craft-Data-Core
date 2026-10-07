@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/century"
+	"function": "tokudata:transform/rider/century"
   }
 }

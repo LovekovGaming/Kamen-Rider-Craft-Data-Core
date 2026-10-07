@@ -30,7 +30,7 @@
 	}
   },
   "rewards": {
-	  "function": "tokudata:check_form/rider/keibi_rider"
+	  "function": "tokudata:transform/rider/keibi_rider"
 	}
   }
   

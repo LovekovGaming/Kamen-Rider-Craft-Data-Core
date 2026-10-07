@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "tokudata:check_form/power_ranger/dino_fury/void_knight"
+    "function": "tokudata:transform/power_ranger/dino_fury/void_knight"
   }
 }

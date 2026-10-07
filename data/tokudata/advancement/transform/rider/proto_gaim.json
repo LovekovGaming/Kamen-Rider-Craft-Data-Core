@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/proto_gaim"
+	"function": "tokudata:transform/rider/proto_gaim"
   }
 }

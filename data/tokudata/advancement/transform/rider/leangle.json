@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/leangle"
+	"function": "tokudata:transform/rider/leangle"
   }
 }

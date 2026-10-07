@@ -30,7 +30,7 @@
 	}
   },
 	"rewards": {
-	  "function": "tokudata:check_form/rider/brali"
+	  "function": "tokudata:transform/rider/brali"
 	}
   }
   

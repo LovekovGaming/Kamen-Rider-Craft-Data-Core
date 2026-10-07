@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/apollogeist"
+	"function": "tokudata:transform/rider/apollogeist"
   }
 }

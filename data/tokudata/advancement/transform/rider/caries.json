@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/caries"
+	"function": "tokudata:transform/rider/caries"
   }
 }

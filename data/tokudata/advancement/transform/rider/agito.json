@@ -93,6 +93,6 @@
 	]
   ],
   "rewards": {
-	"function": "tokudata:check_form/rider/agito"
+	"function": "tokudata:transform/rider/agito"
   }
 }

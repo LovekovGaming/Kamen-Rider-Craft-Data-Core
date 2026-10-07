@@ -30,7 +30,7 @@
 	}
   },
   "rewards": {
-	  "function": "tokudata:check_form/rider/lopo"
+	  "function": "tokudata:transform/rider/lopo"
 	}
   }
   

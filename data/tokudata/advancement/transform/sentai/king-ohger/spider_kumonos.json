@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/king-ohger/spider_kumonos"
+	"function": "tokudata:transform/sentai/king-ohger/spider_kumonos"
   }
 }

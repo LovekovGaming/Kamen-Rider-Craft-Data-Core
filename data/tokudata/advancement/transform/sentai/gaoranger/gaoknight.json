@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/gaoranger/gaoknight"
+	"function": "tokudata:transform/sentai/gaoranger/gaoknight"
   }
 }

@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "tokudata:check_form/power_ranger/beast_morphers/yellow_ranger"
+    "function": "tokudata:transform/power_ranger/beast_morphers/yellow_ranger"
   }
 }

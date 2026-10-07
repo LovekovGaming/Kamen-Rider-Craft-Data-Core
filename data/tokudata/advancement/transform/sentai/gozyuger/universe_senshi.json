@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/gozyuger/universe_senshi"
+	"function": "tokudata:transform/sentai/gozyuger/universe_senshi"
   }
 }

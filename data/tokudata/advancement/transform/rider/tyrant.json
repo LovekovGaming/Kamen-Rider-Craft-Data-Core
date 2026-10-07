@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/tyrant"
+	"function": "tokudata:transform/rider/tyrant"
   }
 }

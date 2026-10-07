@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/lupat/lupin_yellow"
+	"function": "tokudata:transform/sentai/lupat/lupin_yellow"
   }
 }

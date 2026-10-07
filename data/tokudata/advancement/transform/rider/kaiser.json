@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/kaiser"
+	"function": "tokudata:transform/rider/kaiser"
   }
 }

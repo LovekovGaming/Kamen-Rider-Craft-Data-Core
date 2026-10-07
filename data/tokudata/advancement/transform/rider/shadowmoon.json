@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/shadowmoon"
+	"function": "tokudata:transform/rider/shadowmoon"
   }
 }

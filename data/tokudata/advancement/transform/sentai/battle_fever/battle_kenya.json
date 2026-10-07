@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/battle_fever/battle_kenya"
+	"function": "tokudata:transform/sentai/battle_fever/battle_kenya"
   }
 }

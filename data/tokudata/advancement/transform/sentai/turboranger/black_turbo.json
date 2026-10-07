@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/turboranger/black_turbo"
+	"function": "tokudata:transform/sentai/turboranger/black_turbo"
   }
 }

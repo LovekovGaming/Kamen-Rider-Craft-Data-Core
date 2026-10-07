@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/gamma_superior"
+	"function": "tokudata:transform/rider/gamma_superior"
   }
 }

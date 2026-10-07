@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/shinkenger/princess_shinken_red"
+	"function": "tokudata:transform/sentai/shinkenger/princess_shinken_red"
   }
 }

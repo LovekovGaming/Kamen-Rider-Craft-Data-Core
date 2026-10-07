@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/majade"
+	"function": "tokudata:transform/rider/majade"
   }
 }

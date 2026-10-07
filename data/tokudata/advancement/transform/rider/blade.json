@@ -64,6 +64,6 @@
 	]
   ],
   "rewards": {
-	"function": "tokudata:check_form/rider/blade"
+	"function": "tokudata:transform/rider/blade"
   }
 }

@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/goseiger/gosei_black"
+	"function": "tokudata:transform/sentai/goseiger/gosei_black"
   }
 }

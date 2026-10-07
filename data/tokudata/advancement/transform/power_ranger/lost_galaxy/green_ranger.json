@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "tokudata:check_form/power_ranger/lost_galaxy/green_ranger"
+    "function": "tokudata:transform/power_ranger/lost_galaxy/green_ranger"
   }
 }

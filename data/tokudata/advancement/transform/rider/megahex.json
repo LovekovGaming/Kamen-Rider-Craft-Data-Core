@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/megahex"
+	"function": "tokudata:transform/rider/megahex"
   }
 }

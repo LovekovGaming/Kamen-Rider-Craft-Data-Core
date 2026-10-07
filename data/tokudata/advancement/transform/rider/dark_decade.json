@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/dark_decade"
+	"function": "tokudata:transform/rider/dark_decade"
   }
 }

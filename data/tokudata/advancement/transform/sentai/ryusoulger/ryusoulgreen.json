@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/ryusoulger/ryusoulgreen"
+	"function": "tokudata:transform/sentai/ryusoulger/ryusoulgreen"
   }
 }

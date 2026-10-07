@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/ryuki"
+	"function": "tokudata:transform/rider/ryuki"
   }
 }

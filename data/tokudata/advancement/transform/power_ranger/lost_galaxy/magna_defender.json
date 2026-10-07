@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "tokudata:check_form/power_ranger/lost_galaxy/magna_defender"
+    "function": "tokudata:transform/power_ranger/lost_galaxy/magna_defender"
   }
 }

@@ -30,7 +30,7 @@
 	}
   },
   "rewards": {
-	  "function": "tokudata:check_form/rider/nadge-sparrow"
+	  "function": "tokudata:transform/rider/nadge-sparrow"
 	}
   }
   

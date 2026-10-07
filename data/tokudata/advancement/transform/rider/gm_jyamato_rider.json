@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/gm_jyamato_rider"
+	"function": "tokudata:transform/rider/gm_jyamato_rider"
   }
 }

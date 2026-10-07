@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/another_agito_kouji_majima"
+	"function": "tokudata:transform/rider/another_agito_kouji_majima"
   }
 }

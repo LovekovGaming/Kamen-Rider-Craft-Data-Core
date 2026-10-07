@@ -1,4 +1,4 @@
-advancement revoke @s only tokudata:player_transformed
+advancement revoke @s from tokudata:hooks/transform
 scoreboard players reset @s toku.form1
 scoreboard players reset @s toku.form2
 scoreboard players reset @s toku.form3

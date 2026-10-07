@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/zangetsu_shin"
+	"function": "tokudata:transform/rider/zangetsu_shin"
   }
 }

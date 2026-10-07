@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/goranger/momoranger"
+	"function": "tokudata:transform/sentai/goranger/momoranger"
   }
 }

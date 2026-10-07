@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/duke_sengoku"
+	"function": "tokudata:transform/rider/duke_sengoku"
   }
 }

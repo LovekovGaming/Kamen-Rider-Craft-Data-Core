@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "tokudata:check_form/power_ranger/mmpr/ninjor"
+    "function": "tokudata:transform/power_ranger/mmpr/ninjor"
   }
 }

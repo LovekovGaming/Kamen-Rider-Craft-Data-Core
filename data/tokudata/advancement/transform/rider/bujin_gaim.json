@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/bujin_gaim"
+	"function": "tokudata:transform/rider/bujin_gaim"
   }
 }

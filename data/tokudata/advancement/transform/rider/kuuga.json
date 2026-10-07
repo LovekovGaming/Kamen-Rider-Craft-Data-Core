@@ -64,6 +64,6 @@
 	]
   ],
   "rewards": {
-	"function": "tokudata:check_form/rider/kuuga"
+	"function": "tokudata:transform/rider/kuuga"
   }
 }

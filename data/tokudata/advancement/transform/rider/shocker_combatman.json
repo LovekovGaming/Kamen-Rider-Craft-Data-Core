@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/shocker_combatman"
+	"function": "tokudata:transform/rider/shocker_combatman"
   }
 }

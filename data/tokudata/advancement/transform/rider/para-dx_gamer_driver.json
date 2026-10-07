@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/para-dx_gamer_driver"
+	"function": "tokudata:transform/rider/para-dx_gamer_driver"
   }
 }

@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/goseiger/gosei_pink"
+	"function": "tokudata:transform/sentai/goseiger/gosei_pink"
   }
 }

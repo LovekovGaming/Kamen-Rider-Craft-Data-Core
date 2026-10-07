@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/goranger/akaranger"
+	"function": "tokudata:transform/sentai/goranger/akaranger"
   }
 }

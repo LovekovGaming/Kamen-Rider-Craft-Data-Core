@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/ryusoulger/ryusoulblack"
+	"function": "tokudata:transform/sentai/ryusoulger/ryusoulblack"
   }
 }

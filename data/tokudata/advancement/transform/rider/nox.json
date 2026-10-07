@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/nox"
+	"function": "tokudata:transform/rider/nox"
   }
 }

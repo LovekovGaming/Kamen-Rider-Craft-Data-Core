@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/ketaros"
+	"function": "tokudata:transform/rider/ketaros"
   }
 }

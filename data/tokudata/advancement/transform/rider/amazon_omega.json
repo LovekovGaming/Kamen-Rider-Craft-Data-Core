@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/amazon_omega"
+	"function": "tokudata:transform/rider/amazon_omega"
   }
 }

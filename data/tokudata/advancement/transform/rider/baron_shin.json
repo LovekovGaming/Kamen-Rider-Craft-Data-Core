@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/baron_shin"
+	"function": "tokudata:transform/rider/baron_shin"
   }
 }

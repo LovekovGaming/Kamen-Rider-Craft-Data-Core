@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/necrom"
+	"function": "tokudata:transform/rider/necrom"
   }
 }

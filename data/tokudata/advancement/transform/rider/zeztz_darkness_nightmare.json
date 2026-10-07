@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/zeztz_darkness_nightmare"
+	"function": "tokudata:transform/rider/zeztz_darkness_nightmare"
   }
 }

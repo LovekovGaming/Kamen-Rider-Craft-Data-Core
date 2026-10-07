@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/zero_specter"
+	"function": "tokudata:transform/rider/zero_specter"
   }
 }

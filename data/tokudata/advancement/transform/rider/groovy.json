@@ -30,7 +30,7 @@
 	}
   },
   "rewards": {
-	  "function": "tokudata:check_form/rider/groovy"
+	  "function": "tokudata:transform/rider/groovy"
 	}
   }
   

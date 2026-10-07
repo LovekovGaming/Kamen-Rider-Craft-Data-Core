@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/kanon_specter"
+	"function": "tokudata:transform/rider/kanon_specter"
   }
 }

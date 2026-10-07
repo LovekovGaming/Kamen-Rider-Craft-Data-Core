@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/saber"
+	"function": "tokudata:transform/rider/saber"
   }
 }

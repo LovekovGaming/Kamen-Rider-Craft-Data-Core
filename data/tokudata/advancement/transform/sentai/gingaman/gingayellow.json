@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/gingaman/gingayellow"
+	"function": "tokudata:transform/sentai/gingaman/gingayellow"
   }
 }

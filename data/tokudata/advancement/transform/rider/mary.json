@@ -30,7 +30,7 @@
 	}
   },
   "rewards": {
-	  "function": "tokudata:check_form/rider/mary"
+	  "function": "tokudata:transform/rider/mary"
 	}
   }
   

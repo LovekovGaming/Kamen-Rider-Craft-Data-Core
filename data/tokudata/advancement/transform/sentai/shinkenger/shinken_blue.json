@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/shinkenger/shinken_blue"
+	"function": "tokudata:transform/sentai/shinkenger/shinken_blue"
   }
 }

@@ -30,7 +30,7 @@
 	}
   },
   "rewards": {
-	  "function": "tokudata:check_form/rider/keilow"
+	  "function": "tokudata:transform/rider/keilow"
 	}
   }
   

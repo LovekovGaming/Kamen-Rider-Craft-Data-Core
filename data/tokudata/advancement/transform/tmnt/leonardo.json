@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "tokudata:check_form/tmnt/leonardo"
+    "function": "tokudata:transform/tmnt/leonardo"
   }
 }

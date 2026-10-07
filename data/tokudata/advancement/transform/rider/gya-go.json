@@ -30,7 +30,7 @@
 	}
   },
   "rewards": {
-	  "function": "tokudata:check_form/rider/gya-go"
+	  "function": "tokudata:transform/rider/gya-go"
 	}
   }
   

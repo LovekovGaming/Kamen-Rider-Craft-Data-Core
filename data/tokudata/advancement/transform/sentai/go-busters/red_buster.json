@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/go-busters/red_buster"
+	"function": "tokudata:transform/sentai/go-busters/red_buster"
   }
 }

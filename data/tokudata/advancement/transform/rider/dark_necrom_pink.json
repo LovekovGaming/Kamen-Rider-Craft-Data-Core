@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/dark_necrom_pink"
+	"function": "tokudata:transform/rider/dark_necrom_pink"
   }
 }

@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/vulcan"
+	"function": "tokudata:transform/rider/vulcan"
   }
 }

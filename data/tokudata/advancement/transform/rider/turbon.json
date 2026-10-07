@@ -30,7 +30,7 @@
 	}
   },
   "rewards": {
-	  "function": "tokudata:check_form/rider/turbon"
+	  "function": "tokudata:transform/rider/turbon"
 	}
   }
   

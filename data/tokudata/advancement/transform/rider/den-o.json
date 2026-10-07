@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/den-o"
+	"function": "tokudata:transform/rider/den-o"
   }
 }

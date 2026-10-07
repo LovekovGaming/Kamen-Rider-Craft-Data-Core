@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/mashin_chaser"
+	"function": "tokudata:transform/rider/mashin_chaser"
   }
 }

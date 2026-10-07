@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "tokudata:check_form/ultra/showa/leo"
+    "function": "tokudata:transform/ultra/showa/leo"
   }
 }

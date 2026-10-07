@@ -30,7 +30,7 @@
 	}
   },
 	"rewards": {
-	  "function": "tokudata:check_form/rider/bucchii"
+	  "function": "tokudata:transform/rider/bucchii"
 	}
   }
   

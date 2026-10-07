@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/lovekov"
+	"function": "tokudata:transform/rider/lovekov"
   }
 }

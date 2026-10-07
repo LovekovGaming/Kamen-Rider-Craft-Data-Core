@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/gozyuger/gozyu_wolf"
+	"function": "tokudata:transform/sentai/gozyuger/gozyu_wolf"
   }
 }

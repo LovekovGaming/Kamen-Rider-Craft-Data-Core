@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/drive_dead_heat"
+	"function": "tokudata:transform/rider/drive_dead_heat"
   }
 }

@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "tokudata:check_form/tmnt/michelangelo"
+    "function": "tokudata:transform/tmnt/michelangelo"
   }
 }

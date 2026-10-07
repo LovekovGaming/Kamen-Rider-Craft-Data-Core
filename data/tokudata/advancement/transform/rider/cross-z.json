@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/cross-z"
+	"function": "tokudata:transform/rider/cross-z"
   }
 }

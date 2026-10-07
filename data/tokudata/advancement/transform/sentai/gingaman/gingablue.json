@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/gingaman/gingablue"
+	"function": "tokudata:transform/sentai/gingaman/gingablue"
   }
 }

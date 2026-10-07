@@ -11,9 +11,7 @@
               "type_specific": {
                 "type": "minecraft:player",
                 "advancements": {
-                  "tokudata:player_transformed": {
-                    "1": true
-                  }
+                  "tokudata:hooks/transform": true
                 }
               }
             }

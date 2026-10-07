@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/drive"
+	"function": "tokudata:transform/rider/drive"
   }
 }

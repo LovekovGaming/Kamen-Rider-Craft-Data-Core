@@ -64,6 +64,6 @@
 	]
   ],
   "rewards": {
-	"function": "tokudata:check_form/rider/zeztz_exdream"
+	"function": "tokudata:transform/rider/zeztz_exdream"
   }
 }

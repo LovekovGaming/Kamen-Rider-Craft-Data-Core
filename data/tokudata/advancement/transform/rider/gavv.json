@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/gavv"
+	"function": "tokudata:transform/rider/gavv"
   }
 }

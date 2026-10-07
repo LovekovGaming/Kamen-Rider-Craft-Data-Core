@@ -64,6 +64,6 @@
 	]
   ],
   "rewards": {
-	"function": "tokudata:check_form/rider/fourze"
+	"function": "tokudata:transform/rider/fourze"
   }
 }

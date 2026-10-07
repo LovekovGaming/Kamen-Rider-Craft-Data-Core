@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/gaim_natsumikan"
+	"function": "tokudata:transform/rider/gaim_natsumikan"
   }
 }

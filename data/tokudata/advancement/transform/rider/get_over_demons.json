@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/get_over_demons"
+	"function": "tokudata:transform/rider/get_over_demons"
   }
 }

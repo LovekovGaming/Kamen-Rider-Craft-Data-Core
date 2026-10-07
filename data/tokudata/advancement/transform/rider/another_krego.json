@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/another_krego"
+	"function": "tokudata:transform/rider/another_krego"
   }
 }

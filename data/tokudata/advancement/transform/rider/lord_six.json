@@ -30,6 +30,6 @@
 	}
   },
   "rewards": {
-	"function": "tokudata:check_form/rider/lord_six"
+	"function": "tokudata:transform/rider/lord_six"
   }
 }

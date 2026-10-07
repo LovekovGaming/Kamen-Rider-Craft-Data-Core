@@ -30,6 +30,6 @@
     }
   },
   "rewards": {
-	"function": "tokudata:check_form/sentai/lupat/patren_3gou"
+	"function": "tokudata:transform/sentai/lupat/patren_3gou"
   }
 }

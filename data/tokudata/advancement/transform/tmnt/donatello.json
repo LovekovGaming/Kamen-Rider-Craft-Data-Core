@@ -39,6 +39,6 @@
     }
   },
   "rewards": {
-    "function": "tokudata:check_form/tmnt/donatello"
+    "function": "tokudata:transform/tmnt/donatello"
   }
 }
