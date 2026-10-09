@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": "supersentaicraft:king_ohger_head"
+	  },
+	  "chest": {
+		"items": "supersentaicraft:king_ohger_torso"
+	  },
+	  "legs": {
+		"items": "supersentaicraft:king_ohger_legs"
+	  }
+	}
+  }
+}

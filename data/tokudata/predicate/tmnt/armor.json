@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": "tmntcraft:tmnt_head"
+	  },
+	  "chest": {
+		"items": "tmntcraft:tmnt_torso"
+	  },
+	  "legs": {
+		"items": "tmntcraft:tmnt_legs"
+	  }
+	}
+  }
+}

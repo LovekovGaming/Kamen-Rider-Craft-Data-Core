@@ -1,0 +1,35 @@
+{
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tokudata:installed/supersentaicraft"
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{attributes:[{base:30.0d,id:\"supersentaicraft:is_transforming\"}]}",
+              "equipment": {
+                "feet": {
+			  "items": "supersentaicraft:pink_boonboom_changer"
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+		  {
+			"items": "supersentaicraft:pink_boonboom_changer"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+	"function": "tokudata:transform/sentai/boonboomger/bun_pink"
+  }
+}

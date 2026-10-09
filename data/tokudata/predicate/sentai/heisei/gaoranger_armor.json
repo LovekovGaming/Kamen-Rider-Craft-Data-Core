@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": "supersentaicraft:gaoranger_head"
+	  },
+	  "chest": {
+		"items": "supersentaicraft:gaoranger_torso"
+	  },
+	  "legs": {
+		"items": "supersentaicraft:gaoranger_legs"
+	  }
+	}
+  }
+}

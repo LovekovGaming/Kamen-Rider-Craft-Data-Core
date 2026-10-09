@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "chest": {
+		"items": "supersentaicraft:gao_king_torso"
+	  },
+	  "legs": {
+		"items": "supersentaicraft:gao_king_legs"
+	  },
+	  "feet": {
+		"items": "supersentaicraft:gao_king_boots"
+	  }
+	}
+  }
+}

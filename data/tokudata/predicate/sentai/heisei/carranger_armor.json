@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": "supersentaicraft:carranger_head"
+	  },
+	  "chest": {
+		"items": "supersentaicraft:carranger_torso"
+	  },
+	  "legs": {
+		"items": "supersentaicraft:carranger_legs"
+	  }
+	}
+  }
+}

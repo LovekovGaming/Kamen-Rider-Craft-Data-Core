@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": "ultracraft:ultraman_head"
+	  },
+	  "chest": {
+		"items": "ultracraft:ultraman_torso"
+	  },
+	  "legs": {
+		"items": "ultracraft:ultraman_legs"
+	  }
+	}
+  }
+}

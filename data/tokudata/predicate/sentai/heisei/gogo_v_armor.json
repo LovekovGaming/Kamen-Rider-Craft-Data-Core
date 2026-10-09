@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": "supersentaicraft:gogo_v_head"
+	  },
+	  "chest": {
+		"items": "supersentaicraft:gogo_v_torso"
+	  },
+	  "legs": {
+		"items": "supersentaicraft:gogo_v_legs"
+	  }
+	}
+  }
+}

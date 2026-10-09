@@ -1,0 +1,95 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "tokudata:installed/supersentaicraft"
+  },
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/showa/goranger_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/showa/jakq_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/showa/battle_fever_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/showa/denziman_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/showa/sun_vulcan_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/showa/maskman_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/heisei/turboranger_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/heisei/carranger_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/heisei/gingaman_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/heisei/gogo_v_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/heisei/gaoranger_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/heisei/boukenger_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/heisei/shinkenger_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/heisei/goseiger_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/heisei/go-busters_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/heisei/lupat_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/heisei/ryusoulger_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/reiwa/king-ohger_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/reiwa/boonboomger_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/reiwa/gozyuger_detransformed"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "tokudata:sentai/reiwa/gavan_infinity_detransformed"
+      }
+    ]
+  }
+]

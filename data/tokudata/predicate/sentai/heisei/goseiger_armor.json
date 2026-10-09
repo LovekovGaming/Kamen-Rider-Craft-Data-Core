@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": "supersentaicraft:goseiger_head"
+	  },
+	  "chest": {
+		"items": "supersentaicraft:goseiger_torso"
+	  },
+	  "legs": {
+		"items": "supersentaicraft:goseiger_legs"
+	  }
+	}
+  }
+}

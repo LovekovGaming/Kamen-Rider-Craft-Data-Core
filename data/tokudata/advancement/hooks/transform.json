@@ -1,0 +1,7 @@
+{
+  "criteria": {
+	"hook": {
+	  "trigger": "minecraft:impossible"
+	}
+  }
+}

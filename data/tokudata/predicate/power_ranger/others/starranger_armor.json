@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": "powerrangerscraft:starranger_head"
+	  },
+	  "chest": {
+		"items": "powerrangerscraft:starranger_torso"
+	  },
+	  "legs": {
+		"items": "powerrangerscraft:starranger_legs"
+	  }
+	}
+  }
+}

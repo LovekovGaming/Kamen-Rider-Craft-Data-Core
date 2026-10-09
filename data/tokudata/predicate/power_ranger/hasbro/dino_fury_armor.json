@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": "powerrangerscraft:dino_fury_head"
+	  },
+	  "chest": {
+		"items": "powerrangerscraft:dino_fury_torso"
+	  },
+	  "legs": {
+		"items": "powerrangerscraft:dino_fury_legs"
+	  }
+	}
+  }
+}

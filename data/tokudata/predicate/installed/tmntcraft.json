@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:value_check",
+  "value": {
+    "type": "minecraft:storage",
+    "storage": "tokudata:mods",
+    "path": "tmntcraft"
+  },
+  "range": 1
+}

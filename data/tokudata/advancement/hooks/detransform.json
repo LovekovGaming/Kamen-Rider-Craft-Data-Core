@@ -1,0 +1,48 @@
+{
+  "criteria": {
+    "hook": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "minecraft:player",
+                "advancements": {
+                  "tokudata:hooks/transform": true
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:reference",
+                "name": "tokudata:rider/detransformed"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "tokudata:sentai/detransformed"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "tokudata:power_ranger/detransformed"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "tokudata:ultra/detransformed"
+              },
+              {
+                "condition": "minecraft:reference",
+                "name": "tokudata:tmnt/detransformed"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

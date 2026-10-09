@@ -1,0 +1,32 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "feet": {
+          "items": "#tokudata:henshin_devices",
+          "predicates": {
+            "minecraft:custom_data": {
+              "Update_form": false
+            }
+          }
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "feet": {
+            "items": "#tokudata:multi_form_heroes"
+          }
+        }
+      }
+    }
+  }
+]

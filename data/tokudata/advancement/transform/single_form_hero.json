@@ -1,0 +1,114 @@
+{
+	"parent": "tokudata:hooks/transform",
+  "criteria": {
+    "sentai": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+  {
+    "condition": "minecraft:reference",
+    "name": "tokudata:installed/supersentaicraft"
+  },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "#tokudata:multi_form_heroes"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+            "nbt": "{attributes:[{base:30.0d,id:\"supersentaicraft:is_transforming\"}]}",
+              "equipment": {
+                "feet": {
+                  "items": "#supersentaicraft:changer"
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "#supersentaicraft:changer",
+            "predicates": {
+              "minecraft:custom_data": {
+                "Update_form": false
+              }
+            }
+          }
+        ]
+      }
+    },
+    "power_ranger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+  {
+    "condition": "minecraft:reference",
+    "name": "tokudata:installed/powerrangerscraft"
+  },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "feet": {
+                    "items": "#tokudata:multi_form_heroes"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "items": "#powerrangerscraft:morpher",
+            "predicates": {
+              "minecraft:custom_data": "{is_transforming:119.0d}"
+            }
+          }
+        ]
+      }
+    },
+    "other": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tokudata:single_form_transform"
+          }
+        ],
+        "items": [
+          {
+            "items": "#tokudata:henshin_devices",
+            "predicates": {
+              "minecraft:custom_data": "{Update_form:false,render_type:0.0d}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "sentai",
+      "power_ranger",
+      "other"
+    ]
+  ],
+  "rewards": {
+    "function": "tokudata:transform/single_form_hero"
+  }
+}

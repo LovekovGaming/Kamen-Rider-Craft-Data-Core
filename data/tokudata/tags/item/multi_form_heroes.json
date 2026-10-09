@@ -1,0 +1,24 @@
+{
+  "values": [
+    {
+      "id": "#tokudata:multi_form_heroes/rider",
+      "required": false
+    },
+    {
+      "id": "#tokudata:multi_form_heroes/sentai",
+      "required": false
+    },
+    {
+      "id": "#tokudata:multi_form_heroes/power_ranger",
+      "required": false
+    },
+    {
+      "id": "#tokudata:multi_form_heroes/ultra",
+      "required": false
+    },
+    {
+      "id": "#tokudata:multi_form_heroes/tmnt_hero",
+      "required": false
+    }
+  ]
+}

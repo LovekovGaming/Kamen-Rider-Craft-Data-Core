@@ -1,0 +1,35 @@
+{
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tokudata:installed/kamenridercraft"
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{attributes:[{base:30.0d,id:\"kamenridercraft:is_transforming\"}]}",
+              "equipment": {
+                "feet": {
+			  "items": "kamenridercraft:proto_mega_ulorder_gamma_superior"
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+		  {
+			"items": "kamenridercraft:proto_mega_ulorder_gamma_superior"
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "tokudata:transform/rider/gamma_superior"
+  }
+}

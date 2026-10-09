@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+	"equipment": {
+	  "head": {
+		"items": "supersentaicraft:gavan_infinity_head"
+	  },
+	  "chest": {
+		"items": "supersentaicraft:gavan_infinity_torso"
+	  },
+	  "legs": {
+		"items": "supersentaicraft:gavan_infinity_legs"
+	  }
+	}
+  }
+}

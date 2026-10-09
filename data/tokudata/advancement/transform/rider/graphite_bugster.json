@@ -1,0 +1,35 @@
+{
+  "criteria": {
+	"1": {
+	  "trigger": "minecraft:inventory_changed",
+	  "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "tokudata:installed/kamenridercraft"
+          },
+		  {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "nbt": "{attributes:[{base:30.0d,id:\"kamenridercraft:is_transforming\"}]}",
+              "equipment": {
+                "feet": {
+			  "items": "#tokudata:item_alias/gashacon_bugvisor_graphite"
+                }
+              }
+            }
+          }
+        ],
+        "items": [
+		  {
+			"items": "#tokudata:item_alias/gashacon_bugvisor_graphite"
+		  }
+		]
+	  }
+	}
+  },
+  "rewards": {
+	"function": "tokudata:transform/rider/graphite_bugster"
+  }
+}
