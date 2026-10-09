@@ -11,6 +11,7 @@ execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenr
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:new_typhoon_core"}] run scoreboard players set @s toku.form1 4
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:ichigo_manga"}] run scoreboard players set @s toku.form1 5
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:cyclonehopper"}] run scoreboard players set @s toku.form1 6
+execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex1:"kamenridercraft:ultraman_typhoon_core"}] run scoreboard players set @s toku.form1 7
 scoreboard players operation Form_Difference toku.form1 -= @s toku.form1
 function #tokudata:post_check/rider/ichigo
 advancement grant @s only tokudata:hooks/transform
