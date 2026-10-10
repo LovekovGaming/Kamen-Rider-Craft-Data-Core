@@ -15,10 +15,6 @@ execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenr
 execute unless items entity @s armor.feet *[minecraft:custom_data~{slot_tex3:"kamenridercraft:blank_form"}] run scoreboard players set @s toku.form3 1
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex7:"kamenridercraft:blank_form"}] run scoreboard players set @s toku.form4 0
 execute unless items entity @s armor.feet *[minecraft:custom_data~{slot_tex7:"kamenridercraft:blank_form"}] run scoreboard players set @s toku.form4 1
-execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run scoreboard players set @s toku.form1 0
-execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex2 run scoreboard players set @s toku.form2 0
-execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex3 run scoreboard players set @s toku.form3 0
-execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex7 run scoreboard players set @s toku.form4 0
 scoreboard players operation Form_Difference toku.form1 -= @s toku.form1
 scoreboard players operation Form_Difference toku.form2 -= @s toku.form2
 scoreboard players operation Form_Difference toku.form3 -= @s toku.form3

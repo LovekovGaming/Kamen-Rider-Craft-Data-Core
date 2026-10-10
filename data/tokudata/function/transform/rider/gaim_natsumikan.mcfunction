@@ -5,7 +5,6 @@ execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom
 
 scoreboard players operation Form_Difference toku.form1 = @s toku.form1
 scoreboard players operation Form_Difference toku.form2 = @s toku.form2
-execute unless data entity @s Inventory[{Slot:100b}].components.minecraft:custom_data.slot_tex1 run scoreboard players set @s toku.form1 27
 function tokudata:transform/rider/sengoku_driver
 execute if items entity @s armor.feet *[minecraft:custom_data~{slot_tex2:"kamenridercraft:basic_gaim_core"}] run scoreboard players set @s toku.form2 0
 scoreboard players operation Form_Difference toku.form1 -= @s toku.form1
